@@ -1,0 +1,74 @@
+2026-03-25T19:53:04.109+05:30  INFO 29080 --- [Onepiece] [main] com.jdbc.DemoApplication                 : Starting DemoApplication using Java 24.0.1 with PID 29080 (C:\Users\SURYA\Documents\java project  maven march\student-app\student-app\target\classes started by SURYA in C:\Users\SURYA\Documents\java project  maven march\student-app\student-app)
+2026-03-25T19:53:04.117+05:30  INFO 29080 --- [Onepiece] [main] com.jdbc.DemoApplication                 : No active profile set, falling back to 1 default profile: "default"
+2026-03-25T19:53:05.364+05:30  INFO 29080 --- [Onepiece] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-25T19:53:05.411+05:30  INFO 29080 --- [Onepiece] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 0 JPA repository interfaces.
+2026-03-25T19:53:06.279+05:30  INFO 29080 --- [Onepiece] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-03-25T19:53:06.315+05:30  INFO 29080 --- [Onepiece] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-25T19:53:06.315+05:30  INFO 29080 --- [Onepiece] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-25T19:53:06.398+05:30  INFO 29080 --- [Onepiece] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2179 ms
+2026-03-25T19:53:06.729+05:30  INFO 29080 --- [Onepiece] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-25T19:53:06.792+05:30  INFO 29080 --- [Onepiece] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-03-25T19:53:07.576+05:30  INFO 29080 --- [Onepiece] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-25T19:53:07.634+05:30  INFO 29080 --- [Onepiece] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-25T19:53:08.192+05:30  INFO 29080 --- [Onepiece] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1cb44a2f
+2026-03-25T19:53:08.196+05:30  INFO 29080 --- [Onepiece] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-25T19:53:08.300+05:30  INFO 29080 --- [Onepiece] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/student_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: student_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-25T19:53:09.430+05:30  INFO 29080 --- [Onepiece] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-25T19:53:09.440+05:30  INFO 29080 --- [Onepiece] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-25T19:53:09.633+05:30  WARN 29080 --- [Onepiece] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-25T19:53:10.245+05:30  INFO 29080 --- [Onepiece] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-03-25T19:53:10.256+05:30  INFO 29080 --- [Onepiece] [main] com.jdbc.DemoApplication                 : Started DemoApplication in 7.11 seconds (process running for 7.94)
+2026-03-25T20:05:27.449+05:30  INFO 29080 --- [Onepiece] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-25T20:05:27.461+05:30  INFO 29080 --- [Onepiece] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-25T20:05:27.467+05:30  INFO 29080 --- [Onepiece] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-25T20:05:27.475+05:30  INFO 29080 --- [Onepiece] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-25T20:05:27.492+05:30  INFO 29080 --- [Onepiece] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-25T20:05:32.847+05:30  INFO 27608 --- [Onepiece] [main] com.jdbc.DemoApplication                 : Starting DemoApplication using Java 24.0.1 with PID 27608 (C:\Users\SURYA\Documents\java project  maven march\student-app\student-app\target\classes started by SURYA in C:\Users\SURYA\Documents\java project  maven march\student-app\student-app)
+2026-03-25T20:05:32.854+05:30  INFO 27608 --- [Onepiece] [main] com.jdbc.DemoApplication                 : No active profile set, falling back to 1 default profile: "default"
+2026-03-25T20:05:34.126+05:30  INFO 27608 --- [Onepiece] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-25T20:05:34.178+05:30  INFO 27608 --- [Onepiece] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 0 JPA repository interfaces.
+2026-03-25T20:05:35.296+05:30  INFO 27608 --- [Onepiece] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-03-25T20:05:35.330+05:30  INFO 27608 --- [Onepiece] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-25T20:05:35.331+05:30  INFO 27608 --- [Onepiece] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-25T20:05:35.457+05:30  INFO 27608 --- [Onepiece] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2508 ms
+2026-03-25T20:05:35.906+05:30  INFO 27608 --- [Onepiece] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-25T20:05:35.993+05:30  INFO 27608 --- [Onepiece] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-03-25T20:05:36.833+05:30  INFO 27608 --- [Onepiece] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-25T20:05:36.891+05:30  INFO 27608 --- [Onepiece] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-25T20:05:37.399+05:30  INFO 27608 --- [Onepiece] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2cc61b3b
+2026-03-25T20:05:37.401+05:30  INFO 27608 --- [Onepiece] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-25T20:05:37.542+05:30  INFO 27608 --- [Onepiece] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/student_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: student_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-25T20:05:38.830+05:30  INFO 27608 --- [Onepiece] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-25T20:05:38.845+05:30  INFO 27608 --- [Onepiece] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-25T20:05:39.064+05:30  WARN 27608 --- [Onepiece] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-25T20:05:39.687+05:30  INFO 27608 --- [Onepiece] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-03-25T20:05:39.699+05:30  INFO 27608 --- [Onepiece] [main] com.jdbc.DemoApplication                 : Started DemoApplication in 7.807 seconds (process running for 8.673)
+2026-03-25T20:06:45.047+05:30  INFO 27608 --- [Onepiece] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-25T20:06:45.060+05:30  INFO 27608 --- [Onepiece] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-25T20:06:45.068+05:30  INFO 27608 --- [Onepiece] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-25T20:06:45.076+05:30  INFO 27608 --- [Onepiece] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-25T20:06:45.105+05:30  INFO 27608 --- [Onepiece] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-25T20:23:23.340+05:30  INFO 24784 --- [Onepiece] [main] com.jdbc.DemoApplication                 : Starting DemoApplication using Java 24.0.1 with PID 24784 (C:\Users\SURYA\Documents\java project  maven march\student-app\student-app\target\classes started by SURYA in C:\Users\SURYA\Documents\java project  maven march\student-app\student-app)
+2026-03-25T20:23:23.350+05:30  INFO 24784 --- [Onepiece] [main] com.jdbc.DemoApplication                 : No active profile set, falling back to 1 default profile: "default"
